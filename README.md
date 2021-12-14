@@ -41,8 +41,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Github](https://your-solution-url.com)
-- Live Site URL: [Netlify](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/tientrinh21/3-column-preview-card-component)
+- Live Site URL: [Netlify](https://3-column-preview-card-tientrinh.netlify.app/)
 
 ## My process
 
