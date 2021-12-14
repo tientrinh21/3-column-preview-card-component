@@ -39,6 +39,7 @@ body {
 	display: flex;
 	height: 65vh;
 	width: calc(18.5 / 10 * 65vh);
+	margin-bottom: 1em;
 }
 
 .card {
@@ -95,6 +96,35 @@ body {
 
 .card-3 button {
 	color: var(--very-dark-cyan);
+}
+
+@media (max-width: 850px) {
+	.center {
+		height: 100%;
+		margin: 3em 0;
+	}
+
+	.container {
+		flex-direction: column;
+		height: auto;
+		width: 87%;
+	}
+
+	.card {
+		min-height: 425px;
+	}
+
+	.card button {
+		margin-top: 0;
+	}
+
+	.card-1 {
+		border-radius: 0.6em 0.6em 0 0;
+	}
+
+	.card-3 {
+		border-radius: 0 0 0.6em 0.6em;
+	}
 }
 
 /* Atribution */
