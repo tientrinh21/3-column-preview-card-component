@@ -70,6 +70,13 @@ body {
 	font-family: var(--text-font);
 	font-size: 0.9rem;
 	margin-top: 5em;
+	cursor: pointer;
+}
+
+.card button:hover {
+	background-color: transparent;
+	color: var(--very-light-grey);
+	transition: 0.3s;
 }
 
 .card-1 {
